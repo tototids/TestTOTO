@@ -1,0 +1,9 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-10-28 20:14:51
+project --topLevelPackage sut.se.toto
+persistence setup --provider HIBERNATE --database H2_IN_MEMORY 
+entity jpa --class ~.domain.Tset
+web zk setup
+focus --class sut.se.toto.web.Tsetcomproser
+composer --class ~.web.Tsetcomproser --zul tsst.zul
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-10-28 20:18:01
